@@ -1,0 +1,43 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@revolist/revogrid": "^3.0.98",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@tsconfig/svelte": "^2.0.0",
+    "loader": "link:@revolist/revogrid/loader",
+    "marked": "^4.0.12",
+    "pug": "^3.0.2",
+    "punycode": "^2.1.1",
+    "rake-modified": "^1.0.8",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "stylus": "^0.56.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "@revolist/svelte-datagrid": "^3.0.52",
+    "gridjs": "^5.0.2",
+    "gridjs-svelte": "^2.1.0",
+    "markdown-it": "^12.3.2",
+    "sirv-cli": "^2.0.0",
+    "svelte-table": "^0.3.4"
+  }
+}
